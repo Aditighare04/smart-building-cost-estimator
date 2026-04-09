@@ -1,7 +1,7 @@
 import os
 
 if not os.path.exists("model/model.pkl"):
-    from model import train_model
+    import train_model
     
 import streamlit as st
 from model.predict import predict_cost

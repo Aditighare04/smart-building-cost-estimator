@@ -1,0 +1,16 @@
+area,floors,location,material,building_type,cost
+800,1,Urban,Medium,Residential,1200000
+1200,2,Metro,High,Residential,3000000
+1500,3,Metro,High,Commercial,5000000
+600,1,Rural,Low,Residential,600000
+1000,2,Urban,Medium,Commercial,2500000
+2000,4,Metro,High,Commercial,8000000
+900,1,Urban,Low,Residential,1100000
+1700,3,Metro,Medium,Residential,4200000
+1300,2,Rural,Medium,Residential,2000000
+2200,5,Metro,High,Commercial,9500000
+1800,3,Metro,High,Residential,5500000
+1400,2,Urban,Medium,Residential,2800000
+900,1,Rural,Low,Residential,700000
+2100,4,Metro,High,Commercial,9000000
+1600,3,Urban,Medium,Commercial,4500000

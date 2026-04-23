@@ -8,6 +8,10 @@ from chatbot.chatbot_logic import chatbot_response
 
 # Load model
 model_path = os.path.join("model", "model.pkl")
+if not os.path.exists("model/model.pkl"):
+    import subprocess
+    subprocess.run(["python", "model/train_model.py"])
+
 model = pickle.load(open(model_path, "rb"))
 
 st.set_page_config(page_title="Smart Building Cost Estimator", layout="wide")
